@@ -18,7 +18,7 @@ export default function App() {
   const [options, setOptions] = useState([
     { id: 1, text: '20% off', probability: 10 },
     { id: 2, text: 'One month free', probability: 20 },
-    { id: 3, text: 'Branded car sun...', probability: 15 },
+    { id: 3, text: 'Branded car sun..', probability: 15 },
     { id: 4, text: '1-year free build', probability: 25 },
     { id: 5, text: 'Branded gift box', probability: 10 },
     { id: 6, text: 'Try again', probability: 20 },
