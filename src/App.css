@@ -1,1 +1,14 @@
 /* App styles - using Tailwind CSS */
+
+.spin-button {
+  background: linear-gradient(to right, #16094A, #A855F7);
+  transition: all 0.3s ease;
+}
+
+.spin-button:hover:not(:disabled) {
+  background: linear-gradient(to right, #A855F7, #16094A);
+}
+
+.spin-button:disabled {
+  background: #475569;
+}
