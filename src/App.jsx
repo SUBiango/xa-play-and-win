@@ -19,11 +19,11 @@ export default function App() {
   
   // Default to 6 options as requested, with equal probability initially
   const [options, setOptions] = useState([
-    { id: 1, text: '20% Off', probability: 60 },
-    { id: 2, text: 'Car Windshield', probability: 20 },
-    { id: 3, text: '6 Months Free', probability: 0 },
-    { id: 4, text: 'Gift Box', probability: 10 },
-    { id: 5, text: 'Try Again', probability: 10 },
+    { id: 1, text: '20% Off', probability: 85 },
+    { id: 2, text: 'Car Sunshade', probability: 10 },
+    { id: 3, text: '6 Months Free', probability: 5 },
+    { id: 4, text: 'Gift Box', probability: 0 },
+    { id: 5, text: 'Try Again', probability: 0 },
   ]);
 
   const [isSpinning, setIsSpinning] = useState(false);
